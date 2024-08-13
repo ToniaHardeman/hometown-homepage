@@ -1,0 +1,100 @@
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    width: 100%;
+    background-color: #e9edc9;
+    text-align: center;
+}
+
+.head {
+    height: 400px;
+    width: auto;
+    background-image: url("images/mossy-oak.webp");
+    background-size: cover;    
+    justify-content: center;
+    padding: 150px 500px;
+    margin-bottom: 100px;
+    color: black;
+    border-bottom: 6px solid green;
+}
+
+.bg {
+    background-color: #B3e9edc9;
+    border-radius: 50%;
+    padding: 20px 50px 30px 50px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 75px;    
+}
+
+.gap {
+    display: grid;
+    place-items: center;
+    inline-size: 250px;
+}
+
+#one {    
+    border-radius: 50%;
+    border: 5px solid green;
+}
+
+.palms {
+    display: grid;
+    place-items: center;
+    inline-size: 250px;
+}
+
+#two {    
+    border-radius: 50%;
+    border: 5px solid green;
+}
+
+.lodo {
+    display: grid;
+    place-items: center;
+    inline-size: 250px;
+}
+
+#three {    
+    border-radius: 50%;
+    border: 5px solid green;
+}
+
+.guide {
+    margin: 100px;
+    padding-top: 20px;
+    border-top: 1px solid green;
+}
+
+#blurb {    
+    align-items: center;
+    margin: 50px auto;
+    width: 400px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: green;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    border: 3px solid black;
+}
+
+.me2 {
+    padding-left: 20px;
+}
+
+#me {
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+#p {
+    padding: 0 30px;
+}
