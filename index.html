@@ -1,55 +1,73 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <title>HomeTown HomePage Solo Project</title>
     </head>
     <body>
         
-        <!-- HERO SECTION -->
-        <div class="head">
-            <div class="bg">
+<!-- HERO SECTION -->
+
+    <header>
+        <div class="head-img">
+            <div class="head-bg">
                 <h1>Visit South Carolina</h1>
                 <h2>Enjoy the peaceful nature and the southern culture in this laid back state on the east coast of the USA.</h2>
             </div>
         </div>
-        
-        <!-- ACTIVITIES SECTION -->
+    </header>
+
+<!-- ACTIVITIES SECTION -->
+
+    <main>
         <div>
             <h3>My Favorite 3 Places to Relax in South Carolina</h3>
-            <div class="flex">
-                <div class="gap">
-                    <img id="one" src="images/gap.jpg" alt="A creek meandering through the woods at Jones Gap in South Carolina.">
-                    <h4>Jones Gap State Park</h4>
-                    <p>For all you outdoor enthusiasts that love being in nature, walk one of the many trails for breathtaking views of waterfalls or the Caesars Head Overlook. Take a refreshing dip in the Saluda River or one of the many swimming holes. It's located north of Greenville, next to the NC border.</p>
-                </div>
-                <div class="palms">
-                    <img id="two" src="images/palms.jpg" alt="Sand dunes along the coast, Isle of Palms, South Carolina.">
-                    <h4>Isle of Palms</h4>
-                    <p>If you enjoy the beach, Isle of Palms is truly a gem in South Carolina. It has a casual and low-key vibe. Go paddle boarding in Shem Creek or visit enticing restaurants and shops on Sullivan's Island. Catch a relaxing round of golf or hang at the beach. You won't have a problem refilling your chill meter.</p>
-                </div>
-                <div class="lodo">
-                    <img id="three" src="images/tech.jpg" alt="Downtown Charleston, South Carolina near the new tech center."> 
-                    <h4>Downtown Charleston</h4>
-                    <p>Enjoy old southern architecture? You'll find it in Charleston. There are multiple tours available in the downtown area of guaranteed to keep you busy throughout your stay. Once you've worked up an appetite, head into one of the many highly rated restaurants. You may decide to not go home. </p>  
-                </div>             
+            <div class="fav-places">
+                <section>
+                    <div class="gap">
+                        <img id="gap-img" src="images/gap.jpg" alt="A creek meandering through the woods at Jones Gap in South Carolina.">
+                        <h4>Jones Gap State Park</h4>
+                        <p>For all you outdoor enthusiasts that love being in nature, walk one of the many trails for breathtaking views of waterfalls or the Caesars Head Overlook. Take a refreshing dip in the Saluda River or one of the many swimming holes. It's located north of Greenville, next to the NC border.</p>
+                    </div>
+                </section>
+                <section>    
+                    <div class="palms">
+                        <img id="palms-img" src="images/palms.jpg" alt="Sand dunes along the coast, Isle of Palms, South Carolina.">
+                        <h4>Isle of Palms</h4>
+                        <p>If you enjoy the beach, Isle of Palms is truly a gem in South Carolina. It has a casual and low-key vibe. Go paddle boarding in Shem Creek or visit enticing restaurants and shops on Sullivan's Island. Catch a relaxing round of golf or hang at the beach. You won't have a problem refilling your chill meter.</p>
+                    </div>
+                </section> 
+                <section>   
+                    <div class="lodo">
+                        <img id="lodo-img" src="images/tech.jpg" alt="Downtown Charleston, South Carolina near the new tech center."> 
+                        <h4>Downtown Charleston</h4>
+                        <p>Enjoy old southern architecture? You'll find it in Charleston. There are multiple tours available in the downtown area of guaranteed to keep you busy throughout your stay. Once you've worked up an appetite, head into one of the many highly rated restaurants. You may decide to not go home. </p>  
+                    </div>   
+                </section>          
             </div>
         </div>
+    </main>
 
-        <!-- GUIDE SECTION -->
+<!-- GUIDE SECTION -->
+
+    <footer>    
         <div class="guide">
             <h3>Your Guide</h3>
-            <div id="blurb">
-                <div class="me2">
-                    <img id="me" src="images/me.png" alt="A headshot of Tonia Hardeman.">
+            <div id="guide-blurb">
+                <div>
+                    <img id="guide-img" src="images/me.png" alt="A headshot of Tonia Hardeman.">
                 </div>
                 <div>
-                    <p id="p">"I have lived in South Carolina for 33 years. <br>I know all of its best parts and hidden secrets."</p>
+                    <p>"I have lived in South Carolina for 33 years. <br>I know all of its best parts and hidden secrets."</p>
                     <h4>Tonia Hardeman</h4>
                 </div>
             </div>
         </div>
+    </footer>
     </body>
 </html>
